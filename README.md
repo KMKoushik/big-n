@@ -1,3 +1,8 @@
+<p align="center">
+  <img width="128" height="128" src="/src/public/BigNumberLogo128.png?raw=true">
+</p>
+
+
 # An browser extension to quickly convert Big numbers (wei) to Ether and vice versa
 
 ## Local setup
