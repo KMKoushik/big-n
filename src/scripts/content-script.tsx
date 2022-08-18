@@ -50,6 +50,7 @@ const styles = `<style>
     filter: drop-shadow(3px 5px 30px #000);
     color: rgba(41, 41, 41, 1);
     font-family: sans-serif;
+    font-size: '15px';
   }
 
   .big-input {
@@ -76,6 +77,7 @@ const styles = `<style>
 
   .label {
     color: rgba(41, 41, 41, .7);
+    font-size: '15px';
   }
 </style >`
 
