@@ -1,0 +1,25 @@
+{
+  "name": "big-n",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/config-webextension": "^2.6.2",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-modal": "^3.13.1",
+    "@types/webextension-polyfill": "^0.9.0",
+    "parcel": "^2.6.2",
+    "process": "^0.11.10",
+    "webextension-polyfill": "^0.9.0"
+  },
+  "scripts": {
+    "start": "parcel watch src/manifest.json --host localhost",
+    "build": "parcel build src/manifest.json --config @parcel/config-webextension"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-modal": "^3.15.1"
+  }
+}
