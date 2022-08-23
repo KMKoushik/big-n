@@ -9,3 +9,9 @@ browser.commands.onCommand.addListener((command, tab) => {
     browser.tabs.sendMessage(tab.id, { command }).then(console.log)
   }
 });
+
+browser.action.onClicked.addListener(tab => {
+  if (tab.id) {
+    browser.tabs.sendMessage(tab.id, { command: 'convert-number' }).then(console.log)
+  }
+})

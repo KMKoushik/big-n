@@ -22,6 +22,9 @@
     "48": "public/BigNumberLogo48.png",
     "128": "public/BigNumberLogo128.png"
   },
+  "action": {
+    "default_title": "Opens Big-n modal on the current tab"
+  },
   "commands": {
     "convert-number": {
       "suggested_key": {

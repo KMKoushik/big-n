@@ -1,5 +1,4 @@
 import browser from 'webextension-polyfill'
-import BigNumber from 'bignumber.js'
 import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "../pages/index";
@@ -45,7 +44,7 @@ const styles = `<style>
     outline: none;
     padding: 20px;
     margin: auto;
-    height: 100px;
+    height: 120px;
     width: 600px;
     filter: drop-shadow(3px 5px 30px #000);
     color: rgba(41, 41, 41, 1);
@@ -78,6 +77,27 @@ const styles = `<style>
   .label {
     color: rgba(41, 41, 41, .7);
     font-size: '15px';
+  }
+
+  .footer {
+    color: rgba(41, 41, 41, .7);
+    font-size: 13.5px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .foot-link {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgba(41, 41, 41, .7);
+  }
+
+  a:hover {
+    color: rgb(191 10 10 / 80%);
   }
 </style >`
 
