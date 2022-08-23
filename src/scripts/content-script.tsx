@@ -44,7 +44,7 @@ const styles = `<style>
     outline: none;
     padding: 20px;
     margin: auto;
-    height: 120px;
+    height: 140px;
     width: 600px;
     filter: drop-shadow(3px 5px 30px #000);
     color: rgba(41, 41, 41, 1);
@@ -89,6 +89,11 @@ const styles = `<style>
   .foot-link {
     margin-left: 15px;
     margin-right: 15px;
+  }
+
+  .command {
+    color: rgba(41, 41, 41, .7);
+    font-size: 13.5px;
   }
 
   a {

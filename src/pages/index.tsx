@@ -65,7 +65,8 @@ const App: React.FC<{ showModal: boolean, hideModal: () => void, currentSelectio
             <input name="output" className="big-input" placeholder="Output" value={output || 0} type="number" onChange={e => updateOutput(e.target.value)} />
           </div>
         </div>
-        <div style={{ marginTop: '40px' }} className="footer">
+        <p className="command">Use Alt+B (win) / option+B (mac) to open this modal</p>
+        <div style={{ marginTop: '35px' }} className="footer">
           <a className="foot-link" href="https://github.com/KMKoushik/big-n/issues/new" target="_blank">Feedback</a>
           <a className="foot-link" href="https://github.com/KMKoushik/big-n/issues/new" target="_blank">Rate</a>
           <a className="foot-link" href="https://github.com/KMKoushik/big-n" target="_blank">Github</a>
