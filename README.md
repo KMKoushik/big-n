@@ -3,7 +3,7 @@
 </p>
 
 
-# An browser extension to quickly convert Big numbers (wei) to Ether and vice versa
+# A browser extension to quickly convert Big numbers (wei) to Ether and vice versa
 
 Ever frustrated when etherscan or any frontend shows number in wei and you need to convert it to ether quickly? Well this extension will solve that effectively.
 
