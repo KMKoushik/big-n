@@ -7,8 +7,6 @@
 
 Ever frustrated when etherscan or any frontend shows number in wei and you need to convert it to ether quickly? Well this extension will solve that effectively.
 
-An browser extension to quickly convert Big numbers (wei) to Ether and vice versa on any website
-
 <img width="1280" alt="big-n" src="https://user-images.githubusercontent.com/24666922/186257317-61ec4b4b-6c95-4222-8c98-af36f62e2ea8.png">
 
 

@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Big-n: Convert WEI to Ether",
-  "description": "An browser extension to quickly convert Big numbers (wei) to Ether and vice versa",
-  "version": "1.0.0",
+  "description": "A browser extension to quickly convert Big numbers (wei) to Ether and vice versa",
+  "version": "1.0.1",
   "background": {
     "service_worker": "scripts/background.ts",
     "type": "module"

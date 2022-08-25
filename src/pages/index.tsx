@@ -67,8 +67,8 @@ const App: React.FC<{ showModal: boolean, hideModal: () => void, currentSelectio
         </div>
         <p className="command">Use Alt+B (win) / option+B (mac) to open this modal</p>
         <div style={{ marginTop: '35px' }} className="footer">
-          <a className="foot-link" href="https://github.com/KMKoushik/big-n/issues/new" target="_blank">Feedback</a>
-          <a className="foot-link" href="https://github.com/KMKoushik/big-n/issues/new" target="_blank">Rate</a>
+          <a className="foot-link" href="https://github.com/KMKoushik/big-n/issues/new" target="_blank">Raise issue</a>
+          <a className="foot-link" href="https://chrome.google.com/webstore/detail/big-n-convert-wei-to-ethe/poaklelpbnkhfeompcgdaabmhmhodepn" target="_blank">Rate</a>
           <a className="foot-link" href="https://github.com/KMKoushik/big-n" target="_blank">Github</a>
           <a className="foot-link" href="https://koushik.dev" target="_blank">Made by Koushik</a>
         </div>
